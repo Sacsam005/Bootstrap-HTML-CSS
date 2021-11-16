@@ -68,7 +68,7 @@ header .navbar-brand img{
 
 a.nav-link {
     color: white;
-    font-weight:500;
+    font-weight: 500;
     text-transform: uppercase;
     
 }
@@ -95,7 +95,7 @@ header.row.col-md-5 {
 
 header.container.col-md-7 h1 {
     padding: 1vmin;
-    letter-spacing: 4px;    
+    letter-spacing: 0.5vmin;    
 }
 
 header.container .col-md-7 h1 {
@@ -112,7 +112,7 @@ header .container .col-md-5 button {
     border-radius: 25px;
     font-weight: bold;
     margin: 5px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .col-md-7 img {
@@ -235,11 +235,11 @@ div.content.text-center p {
 .rows {
     width: 100%;
     display: flex;
-    float: left;
+    text-align: center;
 }
 
 .col-md-2 img {
-    width: 50px;
+    max-width: 50px;
     height: 50px;
     margin-top: 25vmin;
 }
@@ -276,7 +276,7 @@ div.content.text-center p {
     font-size: 3vmin;
     padding-bottom: 10vmin;
 }
- /* section-2 */
+ 
 #logo {
     width: 200px;
     height: 75px;
@@ -305,6 +305,8 @@ div.content.text-center p {
     font-size: 2rem;
     background: rgba(97, 69, 69, 0);
 }
+
+/* end of section */
 
 /* section 3 */
 .section-3 {
@@ -338,8 +340,11 @@ div.content.text-center p {
 }
 
 .col-md-6 button {
+    font-size: 0.75rem;
+    width: 50%;
     color: white;
     margin-top: 5vmin;
+    border-radius: 25px;
 }
 
 .col-md-6 button:hover {
@@ -348,10 +353,14 @@ div.content.text-center p {
 
 /* section 4 */
 
+section {
+    width: 100%;
+    align-content: center;
+}
+
 .section-4.container.h1 {
     font-size: 2rem;
-    padding-top: 10vmin;
-    
+    padding-top: 10vmin;   
 }
 
 h1.text-dark {
@@ -364,10 +373,6 @@ p.text-secondary {
     color: black!important;
     font-weight: bolder;
     
-}
-
-.section-4.team {
-    padding:  10vmin 4vmin;   
 }
 
 .section-4.card {
@@ -387,14 +392,22 @@ p.text-secondary {
     padding-left: 3rem;
 }
 
+.section-4.carousel-inner {
+    width: 100%;
+}
+
 .border-radius {
     border-radius: 350px;
     width: 60%;
 }
 
-.team-row {
+.team {
     display: flex;
     width: 100%;
+}
+
+.team.row {
+    margin-left: 0;
 }
 
 .col-md-4 {
@@ -450,8 +463,7 @@ footer.flex-box {
 }
 
 .flex-box.col-md-4 {
-    flex: 33.33%;
-    
+    flex: 33.33%;    
 }
 
 footer p span{
