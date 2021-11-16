@@ -8,16 +8,16 @@ const showName = () => {
 
 setTimeout(() => {
     name.innerHTML = 'a Web-Developer';
-}, 1000);
-
-setTimeout(() => {
-    name.innerHTML = 'an Engineer';
 }, 2000);
 
 setTimeout(() => {
+    name.innerHTML = 'an Engineer';
+}, 4000);
+
+setTimeout(() => {
     name.innerHTML = 'a FreeLancer';
-}, 3000);
+}, 6000);
 }
 showName();
 
-setInterval(showName, 4000);
+setInterval(showName, 8000);
